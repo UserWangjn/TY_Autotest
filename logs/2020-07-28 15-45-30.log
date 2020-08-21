@@ -1,0 +1,74 @@
+[0;32m[2020-07-28 15:45:30,024]-[INFO] test_browser_action_ajax.py--> setUpClass ----->TestBrowserActionAjax测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:30,024]-[INFO] test_browser_action_ajax.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 15:45:30,123]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_fail ----->200[0m
+[0;32m[2020-07-28 15:45:30,224]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_success ----->200[0m
+[0;32m[2020-07-28 15:45:30,226]-[INFO] test_browser_action_pf.py--> setUpClass ----->TestBrowserActionPf测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:30,227]-[INFO] test_browser_action_pf.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 15:45:30,331]-[DEBUG] test_browser_action_pf.py--> test_browser_action_pf ----->200[0m
+[0;32m[2020-07-28 15:45:30,331]-[INFO] test_browser_spe.py--> setUpClass ----->TestBrowserSpe[0m
+[0;32m[2020-07-28 15:45:30,331]-[INFO] test_browser_spe.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/spe?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 15:45:30,425]-[DEBUG] test_browser_spe.py--> test_browser_spe_ajax_fail ----->200[0m
+[0;32m[2020-07-28 15:45:30,519]-[DEBUG] test_browser_spe.py--> test_browser_spe_oprt ----->200[0m
+[0;32m[2020-07-28 15:45:30,612]-[DEBUG] test_browser_spe.py--> test_browser_spe_success ----->200[0m
+[0;32m[2020-07-28 15:45:30,613]-[INFO] test_mp_app.py--> setUpClass ----->Mp-App测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:30,614]-[INFO] test_mp_app.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-app[0m
+[0;32m[2020-07-28 15:45:30,616]-[ERROR] get_log.py--> wrapper_func ----->Traceback (most recent call last):
+  File "D:\PycharmProjects\TY_Autotest\common\get_log.py", line 67, in wrapper_func
+    func(self)
+  File "D:\PycharmProjects\TY_Autotest\case\moniProgram\test_mp_app.py", line 77, in test_mp_app_login
+    res = self.request.getInterfaceRes_no_cookie(url=self.url, body=str(body),headers=headers)
+AttributeError: 'TYRequest' object has no attribute 'getInterfaceRes_no_cookie'
+[0m
+[0;32m[2020-07-28 15:45:30,618]-[INFO] test_mp_page.py--> setUpClass ----->Mp-Page测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:30,619]-[INFO] test_mp_page.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-page[0m
+[0;32m[2020-07-28 15:45:30,622]-[ERROR] get_log.py--> wrapper_func ----->Traceback (most recent call last):
+  File "D:\PycharmProjects\TY_Autotest\common\get_log.py", line 67, in wrapper_func
+    func(self)
+  File "D:\PycharmProjects\TY_Autotest\case\moniProgram\test_mp_page.py", line 140, in test_mp_page_jserr
+    res = self.request.getInterfaceRes_no_cookie(url=self.url, body=str(body), headers=headers)
+AttributeError: 'TYRequest' object has no attribute 'getInterfaceRes_no_cookie'
+[0m
+[0;32m[2020-07-28 15:45:30,626]-[ERROR] get_log.py--> wrapper_func ----->Traceback (most recent call last):
+  File "D:\PycharmProjects\TY_Autotest\common\get_log.py", line 67, in wrapper_func
+    func(self)
+  File "D:\PycharmProjects\TY_Autotest\case\moniProgram\test_mp_page.py", line 298, in test_mp_page_request_get
+    res = self.request.getInterfaceRes_no_cookie(url=self.url, body=str(body), headers=headers)
+AttributeError: 'TYRequest' object has no attribute 'getInterfaceRes_no_cookie'
+[0m
+[0;32m[2020-07-28 15:45:33,635]-[INFO] test_browser_action_ajax.py--> setUpClass ----->TestBrowserActionAjax测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:33,635]-[INFO] test_browser_action_ajax.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 15:45:33,731]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_fail ----->200[0m
+[0;32m[2020-07-28 15:45:33,843]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_success ----->200[0m
+[0;32m[2020-07-28 15:45:33,845]-[INFO] test_browser_action_pf.py--> setUpClass ----->TestBrowserActionPf测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:33,846]-[INFO] test_browser_action_pf.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 15:45:33,956]-[DEBUG] test_browser_action_pf.py--> test_browser_action_pf ----->200[0m
+[0;32m[2020-07-28 15:45:33,956]-[INFO] test_browser_spe.py--> setUpClass ----->TestBrowserSpe[0m
+[0;32m[2020-07-28 15:45:33,957]-[INFO] test_browser_spe.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/spe?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 15:45:34,054]-[DEBUG] test_browser_spe.py--> test_browser_spe_ajax_fail ----->200[0m
+[0;32m[2020-07-28 15:45:34,155]-[DEBUG] test_browser_spe.py--> test_browser_spe_oprt ----->200[0m
+[0;32m[2020-07-28 15:45:34,253]-[DEBUG] test_browser_spe.py--> test_browser_spe_success ----->200[0m
+[0;32m[2020-07-28 15:45:34,254]-[INFO] test_mp_app.py--> setUpClass ----->Mp-App测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:34,254]-[INFO] test_mp_app.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-app[0m
+[0;32m[2020-07-28 15:45:34,256]-[ERROR] get_log.py--> wrapper_func ----->Traceback (most recent call last):
+  File "D:\PycharmProjects\TY_Autotest\common\get_log.py", line 67, in wrapper_func
+    func(self)
+  File "D:\PycharmProjects\TY_Autotest\case\moniProgram\test_mp_app.py", line 77, in test_mp_app_login
+    res = self.request.getInterfaceRes_no_cookie(url=self.url, body=str(body),headers=headers)
+AttributeError: 'TYRequest' object has no attribute 'getInterfaceRes_no_cookie'
+[0m
+[0;32m[2020-07-28 15:45:34,258]-[INFO] test_mp_page.py--> setUpClass ----->Mp-Page测试用例开始执行[0m
+[0;32m[2020-07-28 15:45:34,259]-[INFO] test_mp_page.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-page[0m
+[0;32m[2020-07-28 15:45:34,261]-[ERROR] get_log.py--> wrapper_func ----->Traceback (most recent call last):
+  File "D:\PycharmProjects\TY_Autotest\common\get_log.py", line 67, in wrapper_func
+    func(self)
+  File "D:\PycharmProjects\TY_Autotest\case\moniProgram\test_mp_page.py", line 140, in test_mp_page_jserr
+    res = self.request.getInterfaceRes_no_cookie(url=self.url, body=str(body), headers=headers)
+AttributeError: 'TYRequest' object has no attribute 'getInterfaceRes_no_cookie'
+[0m
+[0;32m[2020-07-28 15:45:34,265]-[ERROR] get_log.py--> wrapper_func ----->Traceback (most recent call last):
+  File "D:\PycharmProjects\TY_Autotest\common\get_log.py", line 67, in wrapper_func
+    func(self)
+  File "D:\PycharmProjects\TY_Autotest\case\moniProgram\test_mp_page.py", line 298, in test_mp_page_request_get
+    res = self.request.getInterfaceRes_no_cookie(url=self.url, body=str(body), headers=headers)
+AttributeError: 'TYRequest' object has no attribute 'getInterfaceRes_no_cookie'
+[0m

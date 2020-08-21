@@ -1,0 +1,38 @@
+[0;32m[2020-07-28 16:13:17,316]-[INFO] test_browser_action_ajax.py--> setUpClass ----->TestBrowserActionAjax测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:17,316]-[INFO] test_browser_action_ajax.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 16:13:17,435]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_fail ----->200[0m
+[0;32m[2020-07-28 16:13:17,535]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_success ----->200[0m
+[0;32m[2020-07-28 16:13:17,536]-[INFO] test_browser_action_pf.py--> setUpClass ----->TestBrowserActionPf测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:17,537]-[INFO] test_browser_action_pf.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 16:13:17,633]-[DEBUG] test_browser_action_pf.py--> test_browser_action_pf ----->200[0m
+[0;32m[2020-07-28 16:13:17,633]-[INFO] test_browser_spe.py--> setUpClass ----->TestBrowserSpe[0m
+[0;32m[2020-07-28 16:13:17,633]-[INFO] test_browser_spe.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/spe?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 16:13:17,724]-[DEBUG] test_browser_spe.py--> test_browser_spe_ajax_fail ----->200[0m
+[0;32m[2020-07-28 16:13:17,815]-[DEBUG] test_browser_spe.py--> test_browser_spe_oprt ----->200[0m
+[0;32m[2020-07-28 16:13:17,906]-[DEBUG] test_browser_spe.py--> test_browser_spe_success ----->200[0m
+[0;32m[2020-07-28 16:13:17,907]-[INFO] test_mp_app.py--> setUpClass ----->Mp-App测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:17,907]-[INFO] test_mp_app.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-app[0m
+[0;32m[2020-07-28 16:13:17,998]-[DEBUG] test_mp_app.py--> test_mp_app_login ----->200[0m
+[0;32m[2020-07-28 16:13:17,999]-[INFO] test_mp_page.py--> setUpClass ----->Mp-Page测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:17,999]-[INFO] test_mp_page.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-page[0m
+[0;32m[2020-07-28 16:13:18,105]-[DEBUG] test_mp_page.py--> test_mp_page_jserr ----->200[0m
+[0;32m[2020-07-28 16:13:18,221]-[DEBUG] test_mp_page.py--> test_mp_page_request_get ----->200[0m
+[0;32m[2020-07-28 16:13:21,235]-[INFO] test_browser_action_ajax.py--> setUpClass ----->TestBrowserActionAjax测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:21,235]-[INFO] test_browser_action_ajax.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 16:13:21,329]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_fail ----->200[0m
+[0;32m[2020-07-28 16:13:21,430]-[DEBUG] test_browser_action_ajax.py--> test_browser_action_ajax_success ----->200[0m
+[0;32m[2020-07-28 16:13:21,431]-[INFO] test_browser_action_pf.py--> setUpClass ----->TestBrowserActionPf测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:21,432]-[INFO] test_browser_action_pf.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/action?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 16:13:21,528]-[DEBUG] test_browser_action_pf.py--> test_browser_action_pf ----->200[0m
+[0;32m[2020-07-28 16:13:21,528]-[INFO] test_browser_spe.py--> setUpClass ----->TestBrowserSpe[0m
+[0;32m[2020-07-28 16:13:21,530]-[INFO] test_browser_spe.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/spe?pvid=64f1f345-192f-4752-8064-a43846f66db7&ref=http%3A%2F%2F127.0.0.1%3A8080%2Findex_143.html&referrer=&v=3.1.4&av=3.1.4&did=dd33864f-3e95-40f7-992f-30edba5cbbc1&sid=67f76517-a42c-4e73-a7ef-11c8ca8bf529&__s=1594886879348&ps=1&id=zm_K-IIie_E&key=MbVbeLGiVew&sh=1080&sw=1920&__r=1594886882401[0m
+[0;32m[2020-07-28 16:13:21,623]-[DEBUG] test_browser_spe.py--> test_browser_spe_ajax_fail ----->200[0m
+[0;32m[2020-07-28 16:13:21,715]-[DEBUG] test_browser_spe.py--> test_browser_spe_oprt ----->200[0m
+[0;32m[2020-07-28 16:13:21,809]-[DEBUG] test_browser_spe.py--> test_browser_spe_success ----->200[0m
+[0;32m[2020-07-28 16:13:21,810]-[INFO] test_mp_app.py--> setUpClass ----->Mp-App测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:21,810]-[INFO] test_mp_app.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-app[0m
+[0;32m[2020-07-28 16:13:21,902]-[DEBUG] test_mp_app.py--> test_mp_app_login ----->200[0m
+[0;32m[2020-07-28 16:13:21,902]-[INFO] test_mp_page.py--> setUpClass ----->Mp-Page测试用例开始执行[0m
+[0;32m[2020-07-28 16:13:21,903]-[INFO] test_mp_page.py--> setUpClass ----->URL获取成功, URL:http://10.128.5.248:8588/mp-page[0m
+[0;32m[2020-07-28 16:13:21,996]-[DEBUG] test_mp_page.py--> test_mp_page_jserr ----->200[0m
+[0;32m[2020-07-28 16:13:22,088]-[DEBUG] test_mp_page.py--> test_mp_page_request_get ----->200[0m
